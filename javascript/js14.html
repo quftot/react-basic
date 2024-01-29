@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내부 스크립트-문제1</title>
+</head>
+<body>
+    <p id="total"></p>
+    <p id="aver"></p>
+    <!--
+        점수 80, 100, 90
+        ------------------------
+        합계 = 270
+
+        평균 = 90
+        ------------------------
+        출력해보시오
+    -->
+    <script>
+        const A = 80;
+        const B = 100;
+        const C = 90;
+
+        let total = A + B + C;
+        let aver = total / 3;
+
+        const docTot = document.getElementById("total");
+        const docAver = document.getElementById("aver");
+
+        docTot.innerHTML = "합계 = " + total;
+        docAver.innerHTML = "평균 = " + aver;
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내부 스크립트1</title>
+</head>
+<body>
+    <div id="content"></div>
+    <div id="greeting" class="message"></div>
+    <script>
+        const GRETTING = "안녕하세요 ";
+        const NAME = "everybody ";
+        const MSG = GRETTING + NAME + "!";
+        const EL = document.getElementById("greeting");
+        EL.innerHTML = MSG;
+    </script>
+</body>
+</html>

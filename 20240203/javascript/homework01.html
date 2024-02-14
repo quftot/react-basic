@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숙제</title>
+    <script>
+        window.onload = function() {
+            document.getElementById("my-form").onsubmit = function() {
+                const rice = document.querySelector('input[name="rice"]:checked');
+                const meat = document.querySelector('input[name="meat"]:checked');
+                const soup = document.querySelector('input[name="soup"]:checked');
+                let total = 0;
+
+                if (rice != null) {
+                    total += parseInt(rice.value);
+                }
+                if (meat != null) {
+                    total += parseInt(meat.value);
+                }
+                if (soup != null) {
+                    total += parseInt(soup.value);
+                }
+                document.getElementById("total").value = `${total.toLocaleString()}원`;
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    음식을 선택하세요
+    <form id="my-form" style="display: inline;">
+        <div class="box1">
+            <input type="radio" name="rice" value="3000">보리밥(3000원)
+            <input type="radio" name="rice" value="5000">비빔밥(5000원)
+            <input type="radio" name="rice" value="1000">흰밥(1000원)
+        </div>
+        <div class="box2">
+            <input type="radio" name="meat" value="3000">소고기(3000원)
+            <input type="radio" name="meat" value="5000">돼지고기(5000원)
+            <input type="radio" name="meat" value="1000">닭고기(1000원)
+            <input type="radio" name="meat" value="2000">오리고기(2000원)
+        </div>
+        <div class="box3">
+            <input type="radio" name="soup" value="1500">미역국(1500원)
+            <input type="radio" name="soup" value="1000">된장국(1000원)
+        </div>
+        <input type="submit" value="계산">
+    </form>
+    총계
+    <input type="text" id="total">
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프롬프트로 값 입력받고 조건식에 따른 결과값 출력하기 4</title>
+    <script>
+        const num1 = 80;
+        const num2 = 70;
+        const result = (num1 + num2) / 2;
+        if (result >= 80) {
+            // 문자열 묶을 때 백틱(`) 혼용해서 사용함 - ES6부터 지원
+            document.write(`평균 : ${result} (합격)`);
+        } else {
+            document.write(`평균 : ${result} (불합격)`);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

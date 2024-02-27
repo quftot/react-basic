@@ -18,13 +18,13 @@ function Header() {
     return (
         <>
             <header id="header">
-                <h1><a href="#"><img src="../img/logo.png" alt="logo" /></a></h1>
+                <h1><a href="#"><img src="bs/img/logo.png" alt="logo" /></a></h1>
                 <div id="menu">
                     <a href="#">FOM</a>
                     <a href="#">STORE</a>
                     <a href="#">단체주문</a>
                     <button className="hm">
-                        <img src="../img/btn_menu.png" alt="ham_btn" />
+                        <img src="bs/img/btn_menu.png" alt="ham_btn" />
                     </button>
                 </div>
             </header>
@@ -36,7 +36,7 @@ function Main() {
     return (
         <>
             <div id="main">
-                <a href="#"><img src="../img/banner.jpg" alt="b"/></a>
+                <a href="#"><img src="bs/img/banner.jpg" alt="b"/></a>
             </div>
         </>
     )
@@ -47,9 +47,9 @@ function Slide() {
         <>
             <div id="slide">
                 <ul className="cf">
-                    <li><img src="../img/b1.png" alt="b1"/></li>
-                    <li><img src="../img/b2.png" alt="b2"/></li>
-                    <li><img src="../img/b3.png" alt="b3"/></li>
+                    <li><img src="bs/img/b1.png" alt="b1"/></li>
+                    <li><img src="bs/img/b2.png" alt="b2"/></li>
+                    <li><img src="bs/img/b3.png" alt="b3"/></li>
                 </ul>
                 <div id="roll">
                     <a href="#" className="on"></a>
@@ -69,16 +69,16 @@ function List() {
                 <ul className="cf">
                     <li>
                         <a href="">
-                            <img src="../img/list1.png" alt="lst1"/>
-                            <span className="im"><img src="../img/stit_store.gif" alt="stit_store"/></span>
+                            <img src="bs/img/list1.png" alt="lst1"/>
+                            <span className="im"><img src="bs/img/stit_store.gif" alt="stit_store"/></span>
                             <span className="txt">해피오더 딜리버리로 간편하게 주문하세요!</span>
                             <span className="txt1">상시진행</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="../img/list2.png" alt="lst2" />
-                            <span className="im"><img src="../img/stit_store.gif" alt="stit_store"/></span>
+                            <img src="bs/img/list2.png" alt="lst2" />
+                            <span className="im"><img src="bs/img/stit_store.gif" alt="stit_store"/></span>
                             <span className="txt">해피오더 딜리버리로 간편하게 주문하세요!</span>
                             <span className="txt1">상시진행</span>
                         </a>
@@ -100,7 +100,7 @@ function List1() {
             <section id="list1">
                 <h3>BR MENU</h3>
                 <div className="ban">
-                    <img src="../img/listgroup.png" alt="ban" />
+                    <img src="bs/img/listgroup.png" alt="ban" />
                 </div>
             </section>
         </>
@@ -112,7 +112,7 @@ function Store() {
         <>
             <section id="store">
                 <h3>BR STORE</h3>
-                <img src="../img/fban.jpg" alt="fban" />
+                <img src="bs/img/fban.jpg" alt="fban" />
             </section>
         </>
     )
@@ -123,7 +123,7 @@ function Deli() {
         <>
             <section id="deli">
                 <h3>HAPPY ORDER & DELIVERY</h3>
-                <img src="../img/deli.jpg" alt="fban" />
+                <img src="bs/img/deli.jpg" alt="fban" />
             </section>
         </>
     )
@@ -135,22 +135,22 @@ function Sns() {
             <section id="sns">
                 <h3>SNS</h3>
                 <ul>
-                    <li><a href="#"><img src="../img/f.png" alt="f" /></a></li>
-                    <li><a href="#"><img src="../img/t.png" alt="f" /></a></li>
-                    <li><a href="#"><img src="../img/b.png" alt="f" /></a></li>
-                    <li><a href="#"><img src="../img/u.png" alt="f" /></a></li>
-                    <li><a href="#"><img src="../img/i.png" alt="f" /></a></li>
+                    <li><a href="#"><img src="bs/img/f.png" alt="f" /></a></li>
+                    <li><a href="#"><img src="bs/img/t.png" alt="f" /></a></li>
+                    <li><a href="#"><img src="bs/img/b.png" alt="f" /></a></li>
+                    <li><a href="#"><img src="bs/img/u.png" alt="f" /></a></li>
+                    <li><a href="#"><img src="bs/img/i.png" alt="f" /></a></li>
                 </ul>
             </section>
             <h4 className="line">
-                <a href="#"><img src="../img/tt.png" alt="tt" /></a>
+                <a href="#"><img src="bs/img/tt.png" alt="tt" /></a>
             </h4>
             <div id="listimg">
                 <ul>
-                    <li><a href="#"><img src="../img/ff.png" alt="flist" /></a></li>
-                    <li><a href="#"><img src="../img/ff.png" alt="flist" /></a></li>
-                    <li><a href="#"><img src="../img/ff.png" alt="flist" /></a></li>
-                    <li><a href="#"><img src="../img/ff.png" alt="flist" /></a></li>
+                    <li><a href="#"><img src="bs/img/ff.png" alt="flist" /></a></li>
+                    <li><a href="#"><img src="bs/img/ff.png" alt="flist" /></a></li>
+                    <li><a href="#"><img src="bs/img/ff.png" alt="flist" /></a></li>
+                    <li><a href="#"><img src="bs/img/ff.png" alt="flist" /></a></li>
                 </ul>
             </div>
         </>
